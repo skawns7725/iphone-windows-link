@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EE35D8F2-CA35-41D9-8344-6470F26D73BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoReceiver", "src\PhotoReceiver\PhotoReceiver.csproj", "{F701E558-3DA7-4811-9C09-885A5A4B4549}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7964D45B-C055-47F5-BDCF-502B0323D4E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoReceiver.Tests", "tests\PhotoReceiver.Tests\PhotoReceiver.Tests.csproj", "{4287AB65-10B2-4300-ACDF-A94330653B4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F701E558-3DA7-4811-9C09-885A5A4B4549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F701E558-3DA7-4811-9C09-885A5A4B4549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F701E558-3DA7-4811-9C09-885A5A4B4549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F701E558-3DA7-4811-9C09-885A5A4B4549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4287AB65-10B2-4300-ACDF-A94330653B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4287AB65-10B2-4300-ACDF-A94330653B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4287AB65-10B2-4300-ACDF-A94330653B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4287AB65-10B2-4300-ACDF-A94330653B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F701E558-3DA7-4811-9C09-885A5A4B4549} = {EE35D8F2-CA35-41D9-8344-6470F26D73BE}
+		{4287AB65-10B2-4300-ACDF-A94330653B4E} = {7964D45B-C055-47F5-BDCF-502B0323D4E8}
+	EndGlobalSection
+EndGlobal
